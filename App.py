@@ -8,9 +8,9 @@ def home():
 
 @app.route('/about')
 def about():
-    nama = "Bintang Sayidina Alansyah"
-    npm = "5230411276"
-    return render_template('about.html', nama=nama, npm=npm)
+    Nick = "Rozalan"
+    ID = "289214378"
+    return render_template('about.html', Nick=Nick, ID=ID)
 
 if __name__ == '__main__':
     app.run(debug=True)
